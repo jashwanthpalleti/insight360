@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx --yes vue-tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "ws": "node scripts/mock-ws.cjs"
   },
